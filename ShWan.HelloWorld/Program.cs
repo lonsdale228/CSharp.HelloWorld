@@ -11,7 +11,8 @@ namespace ShWan.HelloWorld
             Console.WriteLine("Hello World!");
             Thread.Sleep(2000); //sleep
             Console.Clear();// CLR screen
-            var text = Console.ReadLine();
+            var test = Console.ReadLine();// принимает любое значение
+            Int32 text = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(text);
         }
     }
