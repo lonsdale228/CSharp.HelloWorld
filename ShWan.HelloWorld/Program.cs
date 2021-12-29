@@ -10,7 +10,7 @@ namespace ShWan.HelloWorld
             Console.ForegroundColor = ConsoleColor.Green; //смена цвета в консоле
             Console.WriteLine("Hello World!");
             Thread.Sleep(2000); //sleep
-            Console.Clear();// CLR
+            Console.Clear();// CLR screen
             var text = Console.ReadLine();
             Console.WriteLine(text);
         }
